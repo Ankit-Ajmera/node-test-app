@@ -34,7 +34,7 @@ var server = http.createServer(function (req, res) {
 		res.write('Host: ' + os.hostname() + '\n');
 		res.write('OssssssssS Type: ' + os.type() + '\n');
 		res.write('O222S Platform: ' + os.platform() + '\n');
-		res.write('OS Arch: ' + os.arch() + '\n');
+		res.write('OsedefS Arch: ' + os.arch() + '\n');
 		res.write('OS Release: ' + os.release() + '\n');
 		res.write('OS Uptime: ' + os.uptime() + '\n');
 		res.write('OS Free memory: ' + os.freemem() / 1024 / 1024 + 'mb\n');
