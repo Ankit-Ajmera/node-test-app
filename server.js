@@ -33,7 +33,7 @@ var server = http.createServer(function (req, res) {
 		res.write('\n');
 		res.write('Host: ' + os.hostname() + '\n');
 		res.write('OssssssssS Type: ' + os.type() + '\n');
-		res.write('O222S Platform: ' + os.platform() + '\n');
+		res.write('O222Sankit Platform: ' + os.platform() + '\n');
 		res.write('OsedefS Arch: ' + os.arch() + '\n');
 		res.write('OS Release: ' + os.release() + '\n');
 		res.write('OS Uptime: ' + os.uptime() + '\n');
