@@ -41,7 +41,7 @@ var server = http.createServer(function (req, res) {
 		res.write('OS Total memory: ' + os.totalmem() / 1024 / 1024 + 'mb\n');
 		res.write('OS CPU count: ' + os.cpus().length + '\n');
 		res.write('OS CPU model: ' + os.cpus()[0].model + '\n');
-		res.write('OS CPU speed: ' + os.cpus()[0].speed + 'mhz\n');
+		res.write('OSSSSSSSSSSSSSS CPU speed: ' + os.cpus()[0].speed + 'mhz\n');
 		res.end('\n');
 
 	});
